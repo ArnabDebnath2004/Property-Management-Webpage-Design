@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+
+}
+
+.header {
+  width: 100%;
+  float: left;
+}
+
+.logo {
+  width: 40%;
+  float: left;
+}
+
+
+.logo img {
+  width: 115px;
+  height: 120px;
+
+}
+
+
+.menu {
+  width: 50%;
+  float: right;
+  margin: 26px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  float: left;
+  padding: 27px;
+
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 14px 2px;
+  font-size: 22px;
+  transition: box-shadow 0.3s ease;
+  border-radius: 20px;
+}
+
+.menu ul li a:hover {
+  color: rgb(52, 46, 110);
+  box-shadow: 6px 6px 12px rgba(52, 46, 110, 0.6) ;
+}
+
+.banner {
+  width: 100%;
+  float: left;
+  height: 700px;
+  position: relative;
+}
+
+.banner-text {
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10%;
+  padding: 36px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 80px;
+  margin: 15px;
+  margin-left: 0px;
+  color: ghostwhite;
+}
+
+
+.banner img {
+  width: 100%;
+  height: 700px;
+  border-radius: 60px;
+}
+
+
+.information {
+  width: 100%;
+  float: left;
+}
+
+.info1 {
+  width: 20%;
+  float: left;
+  margin: 10px;
+  padding: 23px;
+}
+
+.info1 img {
+  width: 100%;
+  height: 190px;
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.image:hover{
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.6);
+}
+
+
+.info1 h2 {
+  color: black;
+  text-align: center;
+}
+
+.info1 p {
+  color: black;
+  text-align: justify;
+  word-spacing: 1px;
+}
+
+
+.information2 {
+  width: 100%;
+  height: 400px;
+  float: left;
+  border-radius: 400px;
+  background-color: rgb(13, 13, 26);
+}
+
+.information2-img {
+  width: 50%;
+  float: left;
+
+}
+
+.information2-img img {
+  width: 60%;
+  height: 297px;
+  padding: 43px;
+  margin-left: 85px;
+  --f: 1.15;
+  clip-path:insert(0);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+
+.information2-img img:hover{
+  clip-path: insert(calc((1-1/var(--f))*20%));
+  scale: var(--f);
+}
+
+
+.information2-text {
+  width: 40%;
+  float: left;
+  padding: 0px;
+  margin: 100px auto;
+}
+
+
+.information2-text {
+  color: wheat;
+  text-align: justify;
+
+}
+
+.information2-text h5 {
+  float: right;
+  padding: 10px;
+}
+
+
+.information3 {
+  width: 100%;
+  float: left;
+  margin: 20px;
+}
+
+.marketing-img {
+  width: 20%;
+  float: left;
+}
+
+.marketing-img img {
+  width: 90%;
+  height: 206px;
+  border-radius: 50%;
+  margin: 15px;
+  
+      transition: box-shadow 0.3s ease;
+}
+
+
+.marketing-img img:hover{
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.6);
+}
+
+.marketing-text {
+  width: 70%;
+  float: left;
+  margin: 58px;
+}
+
+
+.marketing-text h2 {
+  text-align: center;
+  padding: 10px;
+  word-spacing: 10px;
+}
+
+.marketing-text p {
+  text-align: justify;
+  line-height: 30px;
+}
+
+
+
+.button {
+  margin: 0 auto;
+  display: table;
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.button input.btn1 {
+  padding: 15px;
+  margin: 14px;
+  border-radius: 20px;
+   border: none;
+  background-color: rgb(52, 46, 110);
+  font-weight: 800;
+  color: whitesmoke;
+  font-family: 'Goldman';
+  cursor: pointer;
+}
+
+.button input.btn1:hover{
+  box-shadow: 10px 10px 12px rgba(49, 73, 230, 0.6);
+  background-color:whitesmoke;
+  color:rgb(52, 46, 110);
+}
+
+.button input.btn2 {
+  padding: 15px;
+  margin: 14px;
+  border-radius: 20px;
+ border: none;
+  background-color: rgb(67, 201, 85);
+  font-weight: 800;
+  color: black;
+    font-family: 'Goldman';
+    cursor: pointer;
+   
+}
+
+.button input.btn2:hover{
+  box-shadow: 10px 10px 12px rgba(28, 253, 58, 0.6);
+  background-color: black;
+  color: rgb(67, 201, 85);
+}
+
+.footer {
+  width: 100%;
+  float: left;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 1);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.footer-text {
+  width: 50%;
+  float: left;
+}
+
+
+.footer-text h5 {
+  color: #ffffff;
+  margin: 52px;
+}
+
+.footer-menu {
+  width: 50%;
+  float: right;
+
+}
+
+.footer-menu ul {
+  list-style-type: none;
+  margin: 50px;
+}
+
+.footer-menu ul li {
+  float: right;
+  padding: 0px;
+}
+
+.footer-menu ul li a {
+  margin: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-menu ul li a:hover{
+color:#3FF527;
+
+}
